@@ -7,8 +7,8 @@
   - projectPrototype(카멜 표기법), ProjectPrototype(파스칼 표기법)
   - 언더바(-나 _)만 안 넣으면 됨
 - new branch를 하여 이름을 적을 때, [ 이름의 이니셜/new branch한 날짜 ]를 적을 것
-  - new branch를 하는 사람이 "김현모"일 경우: HM/25.05.14
-  - new branch를 하는 사람이 "임수원"일 경우: SW/25.05.14
+  - new branch를 하는 사람이 "김현모"일 경우: HM-25.05.14
+  - new branch를 하는 사람이 "임수원"일 경우: SW-25.05.14
   
 ## 주의 사항
 - 작업을 조금만 해도 Commit은 일상화 할 것..
