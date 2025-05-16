@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
@@ -11,22 +9,17 @@ public class PlayerMove : MonoBehaviour
     Vector3 playerDashValue;
     Vector3 playerVelocity;
 
-    [SerializeField]
-    GameObject player;
-    float moveSpeed = 8.0f;
-    float dashSpeed = 8.0f;
-
-    void Start() {
-        
-    }
+    [SerializeField] GameObject player;
+    [SerializeField] private float moveSpeed = 8.0f;
+    [SerializeField] private float dashSpeed = 8.0f;
 
     void Update() {
         dashDelay += Time.deltaTime;
-        Debug.Log(dashDelay);
 
         if (dashDelay >= 1 && isInputDash)
         {
             dashDelay = 0f;
+            Debug.Log(dashDelay);
             Dash(ref x, ref z);
         }
     }
