@@ -61,8 +61,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\HyeonMo\Scripts\PlayerDash.cs" />
+    <Compile Include="Assets\HyeonMo\Scripts\GameManager.cs" />
     <Compile Include="Assets\HyeonMo\Scripts\PlayerMove.cs" />
     <Compile Include="Assets\HyeonMo\Scripts\PlayerInfermation.cs" />
+    <Compile Include="Assets\ChiWon\Scripts\EnemyStatus.cs" />
+    <Compile Include="Assets\HyeonMo\Scripts\PlayerAttack.cs" />
+    <Compile Include="Assets\ChiWon\Scripts\EnemySpawner.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
