@@ -47,11 +47,12 @@ public class PlayerDash : PlayerDashInfermation {
             playerDashValue = new Vector3(x * dashSpeed, 0, z * dashSpeed);
             rigidbody.AddForce(playerDashValue, ForceMode.Impulse);
             isdashing = true;
+            
         }
     }
 
     IEnumerator StopDash(){
-        if (collider.enabled == true)   //무적 상태가 아닐 경우 실행
+        if (collider.enabled == true && PlayerInfermation.isHit)   //무적 상태가 아닐 경우 실행
             ShotInvicible();
 
         yield return new WaitForSeconds(0.2f);  //대시는 0.2초 동안 빠르게 이동하게 됨
@@ -62,9 +63,11 @@ public class PlayerDash : PlayerDashInfermation {
 
     IEnumerable ShotInvicible() {
         collider.enabled = false;   //무적
+        PlayerInfermation.isHit = false;
         yield return new WaitForSeconds(0.2f);
 
         collider.enabled = true;    //무적 해제
+        PlayerInfermation.isHit = true;
     }
 }
 
