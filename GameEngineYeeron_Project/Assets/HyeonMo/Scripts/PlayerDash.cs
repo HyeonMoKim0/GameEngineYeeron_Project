@@ -7,10 +7,12 @@ public class PlayerDash : PlayerDashInfermation {
 
     Vector3 playerDashValue;
 
-    Rigidbody playerRigidbody;
+    public Rigidbody rigidbody;
+    public Collider collider;
 
     void Awake() {
-        playerRigidbody = GetComponent<Rigidbody>();
+        rigidbody = GetComponent<Rigidbody>();
+        collider = this.gameObject.GetComponent<Collider>();
     }
 
     void Update() {
@@ -41,36 +43,53 @@ public class PlayerDash : PlayerDashInfermation {
         //player.transform.position += playerDashValue = new Vector3(x * dashSpeed, 0, z * dashSpeed);
 
         if (x != 0 || z != 0) {
-            playerDashValue = new Vector3(x * dashSpeed, 0, z * dashSpeed);
-            playerRigidbody.AddForce(playerDashValue, ForceMode.Impulse);
-            isdashing = true;
             StartCoroutine(StopDash());
-            Debug.Log("Dash 잘되구여");
+            StartCoroutine("ShotInvicible");
+            playerDashValue = new Vector3(x * dashSpeed, 0, z * dashSpeed);
+            rigidbody.AddForce(playerDashValue, ForceMode.Impulse);
+            isdashing = true;
+            
         }
     }
 
     IEnumerator StopDash(){
+        //if (collider.enabled == true && PlayerInfermation.isHit)   //무적 상태가 아닐 경우 실행
+        //    ShotInvicible();
+
         yield return new WaitForSeconds(0.2f);  //대시는 0.2초 동안 빠르게 이동하게 됨
 
-        playerRigidbody.velocity = Vector3.zero;
+        rigidbody.velocity = Vector3.zero;
         isdashing = false;
+    }
+
+    IEnumerable ShotInvicible() {
+        if (collider.enabled == true && PlayerInfermation.isHit) {     //무적 상태가 아닐 경우 실행
+            collider.enabled = false;   //무적
+            PlayerInfermation.isHit = false;
+            yield return new WaitForSeconds(0.2f);
+
+            collider.enabled = true;    //무적 해제
+            PlayerInfermation.isHit = true;
+        }
+            
     }
 }
 
 public class PlayerDashInfermation : MonoBehaviour {
     [Header("플레이어 대시")]
-    [SerializeField] protected GameObject player;
-    
+
     [SerializeField] protected int dashCurrentStack = 2;
                      protected int dashMinStack = 0;
-    [SerializeField] protected int dashMaxStack = 2;
+    [SerializeField] protected static int dashMaxStack = 2;
 
 
     [SerializeField] protected float dashSpeed = 32.0f;
     
+
                      protected float dashCurrentDelay = 1.0f;
     [SerializeField] protected float dashAfterDelay = 1.0f;
 
+
                      protected float redashCurrentTime = 0f;
-    [SerializeField] protected float redashConstraintTime = 5.0f;
+    [SerializeField] protected static float redashConstraintTime = 5.0f;
 }
