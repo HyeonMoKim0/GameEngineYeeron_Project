@@ -9,7 +9,7 @@ public class PlayerAttack : MonoBehaviour {
     }
 
     void OnTriggerEnter(Collider other) {
-        if (other.CompareTag("Enemy")) {
+        if (other.CompareTag("Enemy") && PlayerDash.isdashing) {
             enemyStatus = other.gameObject.GetComponent<EnemyStatus>();
             Debug.Log("이거 잘 할당된거 맞죠?" + enemyStatus);
 

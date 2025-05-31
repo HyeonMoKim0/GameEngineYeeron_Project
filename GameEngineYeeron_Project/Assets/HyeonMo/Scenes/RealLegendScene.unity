@@ -289,6 +289,8 @@ MonoBehaviour:
   dashCurrentStack: 2
   dashSpeed: 32
   dashAfterDelay: 1
+  rigidbody: {fileID: 0}
+  collider: {fileID: 0}
 --- !u!114 &58544295
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -392,7 +394,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1334948587
 Transform:
   m_ObjectHideFlags: 0
@@ -1086,11 +1088,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf061768b02442047b3695319d52688c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHP: 20
-  currentHP: 20
-  adk: 1
-  expValue: 10
-  moveSpeed: 3
+  maxHP: 0
+  currentHP: 0
+  adk: 0
+  expValue: 0
+  moveSpeed: 0
   objectEXP: {fileID: 0}
   player: {fileID: 58544290}
 --- !u!1 &1889459472

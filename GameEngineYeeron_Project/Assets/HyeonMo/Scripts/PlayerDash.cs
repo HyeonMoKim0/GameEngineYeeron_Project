@@ -7,12 +7,12 @@ public class PlayerDash : PlayerDashInfermation {
 
     Vector3 playerDashValue;
 
-    Rigidbody rigidbody;
-    Collider collider;
+    public Rigidbody rigidbody;
+    public Collider collider;
 
     void Awake() {
         rigidbody = GetComponent<Rigidbody>();
-        collider = GetComponent<Collider>();
+        collider = this.gameObject.GetComponent<Collider>();
     }
 
     void Update() {
@@ -44,6 +44,7 @@ public class PlayerDash : PlayerDashInfermation {
 
         if (x != 0 || z != 0) {
             StartCoroutine(StopDash());
+            StartCoroutine("ShotInvicible");
             playerDashValue = new Vector3(x * dashSpeed, 0, z * dashSpeed);
             rigidbody.AddForce(playerDashValue, ForceMode.Impulse);
             isdashing = true;
@@ -52,8 +53,8 @@ public class PlayerDash : PlayerDashInfermation {
     }
 
     IEnumerator StopDash(){
-        if (collider.enabled == true && PlayerInfermation.isHit)   //무적 상태가 아닐 경우 실행
-            ShotInvicible();
+        //if (collider.enabled == true && PlayerInfermation.isHit)   //무적 상태가 아닐 경우 실행
+        //    ShotInvicible();
 
         yield return new WaitForSeconds(0.2f);  //대시는 0.2초 동안 빠르게 이동하게 됨
 
@@ -62,12 +63,15 @@ public class PlayerDash : PlayerDashInfermation {
     }
 
     IEnumerable ShotInvicible() {
-        collider.enabled = false;   //무적
-        PlayerInfermation.isHit = false;
-        yield return new WaitForSeconds(0.2f);
+        if (collider.enabled == true && PlayerInfermation.isHit) {     //무적 상태가 아닐 경우 실행
+            collider.enabled = false;   //무적
+            PlayerInfermation.isHit = false;
+            yield return new WaitForSeconds(0.2f);
 
-        collider.enabled = true;    //무적 해제
-        PlayerInfermation.isHit = true;
+            collider.enabled = true;    //무적 해제
+            PlayerInfermation.isHit = true;
+        }
+            
     }
 }
 

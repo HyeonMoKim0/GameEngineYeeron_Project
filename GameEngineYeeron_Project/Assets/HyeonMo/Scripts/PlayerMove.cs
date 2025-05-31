@@ -20,12 +20,8 @@ public class PlayerMove : MonoBehaviour {
 
 
     bool IsMoving(ref float x, ref float z) {
-        if (x != 0 || z != 0) {
-            return true;
-        }
-        else {
-            return false;
-        }
+        if (x != 0 || z != 0) { return true; }
+        else { return false; }
     }
 
     void PlayerMoving(ref float x, ref float z) {

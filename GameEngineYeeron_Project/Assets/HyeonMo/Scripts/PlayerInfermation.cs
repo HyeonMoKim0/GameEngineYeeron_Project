@@ -29,7 +29,7 @@ public class PlayerInfermation : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Enemy" && isHit)
+        if (other.gameObject.tag == "Enemy" && isHit)   //에너미랑 충돌하면 health 감소
         {
             --health;
             if (health <= 0)
