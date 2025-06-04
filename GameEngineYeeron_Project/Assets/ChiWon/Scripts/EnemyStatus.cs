@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class EnemyStatus : MonoBehaviour
 {
-    [SerializeField] public int maxHP = 20;
-    [SerializeField] public int currentHP;
-    [SerializeField] public int adk = 1;
-    [SerializeField] public int expValue = 10;
-    [SerializeField] public float moveSpeed = 8.0f;
+    public int maxHP = 20;
+    public int currentHP = 20;
+    public int adk = 1;
+    public int expValue = 10;
+    public float moveSpeed = 8.0f;
     
     public GameObject objectEXP;
     public Transform player;
