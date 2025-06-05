@@ -37,9 +37,6 @@ public class PlayerDash : PlayerDashInfermation {
     }
 
     void Dash(ref float x, ref float z) {
-        //아래는 텔포하는 대시 기능
-        //player.transform.position += playerDashValue = new Vector3(x * dashSpeed, 0, z * dashSpeed);
-        
         if (IsNotDelay() && IsExistDashStack()) {
             --dashCurrentStack;
             dashCurrentDelay = 0f;
@@ -80,23 +77,4 @@ public class PlayerDash : PlayerDashInfermation {
         if (dashCurrentStack > dashMinStack) { return true; }
         else { return false; }
     }
-}
-
-public class PlayerDashInfermation : MonoBehaviour {
-    [Header("플레이어 대시")]
-
-    [SerializeField] protected int dashCurrentStack = 2;
-                     protected int dashMinStack = 0;
-    [SerializeField] protected static int dashMaxStack = 2;
-
-
-    [SerializeField] protected float dashSpeed = 32.0f;
-    
-
-                     protected float dashCurrentDelay = 1.0f;
-    [SerializeField] protected float dashAfterDelay = 1.0f;
-
-
-                     protected float redashCurrentTime = 0f;
-    [SerializeField] protected static float redashConstraintTime = 5.0f;
 }
