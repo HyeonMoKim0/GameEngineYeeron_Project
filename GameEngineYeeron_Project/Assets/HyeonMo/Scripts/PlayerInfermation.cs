@@ -2,12 +2,10 @@ using System.Collections;
 using UnityEngine;
 
 public class PlayerInfermation : MonoBehaviour {
+    private float invicibleTime = 2.0f;
 
-    [Header("플레이어 기본 정보")]
-    public int health = 3;         //나중에 static으로 바꿀 것
-    public int attackPower = 10;   //나중에 static으로 바꿀 것
-
-    float invicibleTime = 2.0f;
+    public static int health = 3;
+    public static int attackPower = 10;
 
     public static bool isHit = true;
 
@@ -36,14 +34,10 @@ public class PlayerInfermation : MonoBehaviour {
                 Die();
 
             StartCoroutine(LongInvicible());
-            Debug.Log("player 피 잘 깎였구여");
-            
         }
     }
 
-    void Die() {
-        gameObject.SetActive(false);
-    }
+    void Die() { gameObject.SetActive(false); }
 
     IEnumerator LongInvicible()
     {
