@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PlayerMove : MonoBehaviour {
     [Header("플레이어 이동 속도")]
-    [SerializeField] static float moveSpeed = 16.0f;
+    public static float moveSpeed = 16.0f;
 
 
     public static float x = 0f, z = 0f;

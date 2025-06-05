@@ -2,9 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemySpawner : MonoBehaviour
-{
-
+public class EnemySpawner : MonoBehaviour {
     [SerializeField] private float spawnDelay; //설정된 값에 따른 스폰 간격
     [SerializeField] private float spawnDistance; // 카메라 중심으로 스폰되는 거리
 

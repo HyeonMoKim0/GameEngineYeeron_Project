@@ -287,8 +287,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dashCurrentStack: 2
-  dashSpeed: 16
+  dashMinStack: 0
+  dashSpeed: 32
+  dashCurrentDelay: 1
   dashAfterDelay: 1
+  redashCurrentTime: 0
   rigidbody: {fileID: 0}
   collider: {fileID: 0}
 --- !u!114 &58544295
