@@ -12,7 +12,7 @@ public class PlayerDashInfermation : MonoBehaviour {
     //추후 아래 사항들은 protected으로 변경하고, 싱글톤 패턴으로 Instance 제작할 것
     public static int dashCurrentStack = 2;
     [HideInInspector] public int dashMinStack = 0;
-    public int dashMaxStack = 2;
+    public static int dashMaxStack = 2;
 
 
     public float dashSpeed = 32.0f;
@@ -23,7 +23,7 @@ public class PlayerDashInfermation : MonoBehaviour {
 
 
     public static float redashCurrentTime = 0f;
-    [HideInInspector] public float redashConstraintTime = 5.0f;
+    [HideInInspector] public static float redashConstraintTime = 5.0f;
 
     protected bool isInputDash = false;
 
