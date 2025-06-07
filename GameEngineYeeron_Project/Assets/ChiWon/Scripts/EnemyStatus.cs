@@ -34,7 +34,7 @@ public class EnemyStatus : MonoBehaviour
         transform.position += direction * moveSpeed * Time.deltaTime;
     }
 
-    void EnemyDamaged (int damage)
+    public void EnemyDamaged (int damage)
     {
         currentHP -= damage;
         if (currentHP <= 0)
