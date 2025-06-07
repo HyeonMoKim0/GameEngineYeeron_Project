@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/SuWon/Scenes/SuwonScenes.unity
+- path: Assets/HyeonMo/Scenes/RealLegendScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
