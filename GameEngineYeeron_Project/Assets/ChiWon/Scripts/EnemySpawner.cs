@@ -5,8 +5,8 @@ using UnityEngine;
 public class EnemySpawner : MonoBehaviour {
     [SerializeField] private float spawnDelay; //설정된 값에 따른 스폰 간격
     [SerializeField] private float spawnDistance; // 카메라 중심으로 스폰되는 거리
-
     private float spawnCount;
+
     public GameObject[] enemyPrefabs;
     public Transform player;
 
@@ -34,6 +34,7 @@ public class EnemySpawner : MonoBehaviour {
         Vector3 spawnPos = player.transform.position + new Vector3(spawnDir.x, 0, spawnDir.z) * spawnDistance;
         int randomIndex = Random.Range(0, enemyPrefabs.Length);
         Instantiate(enemyPrefabs[randomIndex], spawnPos, Quaternion.identity);
+        
 
     }
 }
