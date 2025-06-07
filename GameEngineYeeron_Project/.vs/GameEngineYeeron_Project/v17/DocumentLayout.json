@@ -3,40 +3,44 @@
   "WorkspaceRootPath": "D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{05605D2B-6B10-65D8-F0E1-6A8CF2A932D2}|Assembly-CSharp-Editor.csproj|d:\\develope_files\\github\\gameengineyeeron_project\\gameengineyeeron_project\\assets\\hyeonmo\\scripts\\editor\\playermoveeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05605D2B-6B10-65D8-F0E1-6A8CF2A932D2}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\hyeonmo\\scripts\\editor\\playermoveeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CADECCF6-D2FE-6766-68F0-8F637F5872C5}|Assembly-CSharp.csproj|D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\assets\\hyeonmo\\scripts\\samuraidash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADECCF6-D2FE-6766-68F0-8F637F5872C5}|Assembly-CSharp.csproj|solutionrelative:assets\\hyeonmo\\scripts\\samuraidash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CADECCF6-D2FE-6766-68F0-8F637F5872C5}|Assembly-CSharp.csproj|d:\\develope_files\\github\\gameengineyeeron_project\\gameengineyeeron_project\\assets\\hyeonmo\\scripts\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CADECCF6-D2FE-6766-68F0-8F637F5872C5}|Assembly-CSharp.csproj|solutionrelative:assets\\hyeonmo\\scripts\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CADECCF6-D2FE-6766-68F0-8F637F5872C5}|Assembly-CSharp.csproj|d:\\develope_files\\github\\gameengineyeeron_project\\gameengineyeeron_project\\assets\\hyeonmo\\scripts\\parent class\\playerdashinfermation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADECCF6-D2FE-6766-68F0-8F637F5872C5}|Assembly-CSharp.csproj|solutionrelative:assets\\hyeonmo\\scripts\\parent class\\playerdashinfermation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05605D2B-6B10-65D8-F0E1-6A8CF2A932D2}|Assembly-CSharp-Editor.csproj|D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\assets\\hyeonmo\\scripts\\editor\\playerinfermationeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05605D2B-6B10-65D8-F0E1-6A8CF2A932D2}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\hyeonmo\\scripts\\editor\\playerinfermationeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CADECCF6-D2FE-6766-68F0-8F637F5872C5}|Assembly-CSharp.csproj|D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\assets\\hyeonmo\\scripts\\afterimagelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADECCF6-D2FE-6766-68F0-8F637F5872C5}|Assembly-CSharp.csproj|solutionrelative:assets\\hyeonmo\\scripts\\afterimagelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADECCF6-D2FE-6766-68F0-8F637F5872C5}|Assembly-CSharp.csproj|d:\\develope_files\\github\\gameengineyeeron_project\\gameengineyeeron_project\\assets\\hyeonmo\\scripts\\playerdash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADECCF6-D2FE-6766-68F0-8F637F5872C5}|Assembly-CSharp.csproj|solutionrelative:assets\\hyeonmo\\scripts\\playerdash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADECCF6-D2FE-6766-68F0-8F637F5872C5}|Assembly-CSharp.csproj|d:\\develope_files\\github\\gameengineyeeron_project\\gameengineyeeron_project\\assets\\hyeonmo\\scripts\\playerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADECCF6-D2FE-6766-68F0-8F637F5872C5}|Assembly-CSharp.csproj|solutionrelative:assets\\hyeonmo\\scripts\\playerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CADECCF6-D2FE-6766-68F0-8F637F5872C5}|Assembly-CSharp.csproj|D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\assets\\hyeonmo\\scripts\\playerinfermation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CADECCF6-D2FE-6766-68F0-8F637F5872C5}|Assembly-CSharp.csproj|solutionrelative:assets\\hyeonmo\\scripts\\playerinfermation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CADECCF6-D2FE-6766-68F0-8F637F5872C5}|Assembly-CSharp.csproj|D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\assets\\hyeonmo\\scripts\\playerdash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CADECCF6-D2FE-6766-68F0-8F637F5872C5}|Assembly-CSharp.csproj|solutionrelative:assets\\hyeonmo\\scripts\\playerdash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CADECCF6-D2FE-6766-68F0-8F637F5872C5}|Assembly-CSharp.csproj|D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\assets\\hyeonmo\\scripts\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADECCF6-D2FE-6766-68F0-8F637F5872C5}|Assembly-CSharp.csproj|solutionrelative:assets\\hyeonmo\\scripts\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CADECCF6-D2FE-6766-68F0-8F637F5872C5}|Assembly-CSharp.csproj|D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\assets\\chiwon\\scripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CADECCF6-D2FE-6766-68F0-8F637F5872C5}|Assembly-CSharp.csproj|solutionrelative:assets\\chiwon\\scripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CADECCF6-D2FE-6766-68F0-8F637F5872C5}|Assembly-CSharp.csproj|D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\assets\\suwon\\scripts\\playerdashdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADECCF6-D2FE-6766-68F0-8F637F5872C5}|Assembly-CSharp.csproj|solutionrelative:assets\\suwon\\scripts\\playerdashdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CADECCF6-D2FE-6766-68F0-8F637F5872C5}|Assembly-CSharp.csproj|D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\assets\\hyeonmo\\scripts\\parent class\\playerdashinfermation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CADECCF6-D2FE-6766-68F0-8F637F5872C5}|Assembly-CSharp.csproj|solutionrelative:assets\\hyeonmo\\scripts\\parent class\\playerdashinfermation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CADECCF6-D2FE-6766-68F0-8F637F5872C5}|Assembly-CSharp.csproj|D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\assets\\suwon\\scripts\\rewardmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADECCF6-D2FE-6766-68F0-8F637F5872C5}|Assembly-CSharp.csproj|solutionrelative:assets\\suwon\\scripts\\rewardmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CADECCF6-D2FE-6766-68F0-8F637F5872C5}|Assembly-CSharp.csproj|D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\assets\\hyeonmo\\scripts\\playerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CADECCF6-D2FE-6766-68F0-8F637F5872C5}|Assembly-CSharp.csproj|solutionrelative:assets\\hyeonmo\\scripts\\playerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CADECCF6-D2FE-6766-68F0-8F637F5872C5}|Assembly-CSharp.csproj|D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\assets\\chiwon\\scripts\\enemystatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CADECCF6-D2FE-6766-68F0-8F637F5872C5}|Assembly-CSharp.csproj|solutionrelative:assets\\chiwon\\scripts\\enemystatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CADECCF6-D2FE-6766-68F0-8F637F5872C5}|Assembly-CSharp.csproj|D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\assets\\suwon\\scripts\\playerhpdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADECCF6-D2FE-6766-68F0-8F637F5872C5}|Assembly-CSharp.csproj|solutionrelative:assets\\suwon\\scripts\\playerhpdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,118 +50,135 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PlayerMoveEditor.cs",
-              "DocumentMoniker": "D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\Assets\\HyeonMo\\Scripts\\Editor\\PlayerMoveEditor.cs",
-              "RelativeDocumentMoniker": "Assets\\HyeonMo\\Scripts\\Editor\\PlayerMoveEditor.cs",
-              "ToolTip": "D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\Assets\\HyeonMo\\Scripts\\Editor\\PlayerMoveEditor.cs",
-              "RelativeToolTip": "Assets\\HyeonMo\\Scripts\\Editor\\PlayerMoveEditor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "PlayerAttack.cs",
+              "DocumentMoniker": "D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\Assets\\HyeonMo\\Scripts\\PlayerAttack.cs",
+              "RelativeDocumentMoniker": "Assets\\HyeonMo\\Scripts\\PlayerAttack.cs",
+              "ToolTip": "D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\Assets\\HyeonMo\\Scripts\\PlayerAttack.cs",
+              "RelativeToolTip": "Assets\\HyeonMo\\Scripts\\PlayerAttack.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T12:21:14.687Z",
+              "WhenOpened": "2025-06-07T10:58:55.739Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "PlayerInfermationEditor.cs",
-              "DocumentMoniker": "D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\Assets\\HyeonMo\\Scripts\\Editor\\PlayerInfermationEditor.cs",
-              "RelativeDocumentMoniker": "Assets\\HyeonMo\\Scripts\\Editor\\PlayerInfermationEditor.cs",
-              "ToolTip": "D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\Assets\\HyeonMo\\Scripts\\Editor\\PlayerInfermationEditor.cs",
-              "RelativeToolTip": "Assets\\HyeonMo\\Scripts\\Editor\\PlayerInfermationEditor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAlAAAAAAAAAA==",
+              "Title": "AfterImageLogic.cs",
+              "DocumentMoniker": "D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\Assets\\HyeonMo\\Scripts\\AfterImageLogic.cs",
+              "RelativeDocumentMoniker": "Assets\\HyeonMo\\Scripts\\AfterImageLogic.cs",
+              "ToolTip": "D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\Assets\\HyeonMo\\Scripts\\AfterImageLogic.cs",
+              "RelativeToolTip": "Assets\\HyeonMo\\Scripts\\AfterImageLogic.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T12:18:23.997Z",
+              "WhenOpened": "2025-06-07T07:29:16.711Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "SamuraiDash.cs",
+              "DocumentMoniker": "D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\Assets\\HyeonMo\\Scripts\\SamuraiDash.cs",
+              "RelativeDocumentMoniker": "Assets\\HyeonMo\\Scripts\\SamuraiDash.cs",
+              "ToolTip": "D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\Assets\\HyeonMo\\Scripts\\SamuraiDash.cs",
+              "RelativeToolTip": "Assets\\HyeonMo\\Scripts\\SamuraiDash.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T15:13:55.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerDash.cs",
+              "DocumentMoniker": "D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\Assets\\HyeonMo\\Scripts\\PlayerDash.cs",
+              "RelativeDocumentMoniker": "Assets\\HyeonMo\\Scripts\\PlayerDash.cs",
+              "ToolTip": "D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\Assets\\HyeonMo\\Scripts\\PlayerDash.cs",
+              "RelativeToolTip": "Assets\\HyeonMo\\Scripts\\PlayerDash.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T10:56:28.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "PlayerDashInfermation.cs",
               "DocumentMoniker": "D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\Assets\\HyeonMo\\Scripts\\Parent Class\\PlayerDashInfermation.cs",
               "RelativeDocumentMoniker": "Assets\\HyeonMo\\Scripts\\Parent Class\\PlayerDashInfermation.cs",
               "ToolTip": "D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\Assets\\HyeonMo\\Scripts\\Parent Class\\PlayerDashInfermation.cs",
               "RelativeToolTip": "Assets\\HyeonMo\\Scripts\\Parent Class\\PlayerDashInfermation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T11:43:55.988Z"
+              "WhenOpened": "2025-06-05T11:43:55.988Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
+              "Title": "PlayerHPDisplay.cs",
+              "DocumentMoniker": "D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\Assets\\SuWon\\Scripts\\PlayerHPDisplay.cs",
+              "RelativeDocumentMoniker": "Assets\\SuWon\\Scripts\\PlayerHPDisplay.cs",
+              "ToolTip": "D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\Assets\\SuWon\\Scripts\\PlayerHPDisplay.cs",
+              "RelativeToolTip": "Assets\\SuWon\\Scripts\\PlayerHPDisplay.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T04:49:39.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PlayerDashDisplay.cs",
+              "DocumentMoniker": "D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\Assets\\SuWon\\Scripts\\PlayerDashDisplay.cs",
+              "RelativeDocumentMoniker": "Assets\\SuWon\\Scripts\\PlayerDashDisplay.cs",
+              "ToolTip": "D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\Assets\\SuWon\\Scripts\\PlayerDashDisplay.cs",
+              "RelativeToolTip": "Assets\\SuWon\\Scripts\\PlayerDashDisplay.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAACOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T04:49:16.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlayerInfermation.cs",
+              "DocumentMoniker": "D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\Assets\\HyeonMo\\Scripts\\PlayerInfermation.cs",
+              "RelativeDocumentMoniker": "Assets\\HyeonMo\\Scripts\\PlayerInfermation.cs",
+              "ToolTip": "D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\Assets\\HyeonMo\\Scripts\\PlayerInfermation.cs",
+              "RelativeToolTip": "Assets\\HyeonMo\\Scripts\\PlayerInfermation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T11:43:20.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "PlayerMove.cs",
               "DocumentMoniker": "D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\Assets\\HyeonMo\\Scripts\\PlayerMove.cs",
               "RelativeDocumentMoniker": "Assets\\HyeonMo\\Scripts\\PlayerMove.cs",
               "ToolTip": "D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\Assets\\HyeonMo\\Scripts\\PlayerMove.cs",
               "RelativeToolTip": "Assets\\HyeonMo\\Scripts\\PlayerMove.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-05T11:43:22.875Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PlayerInfermation.cs",
-              "DocumentMoniker": "D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\Assets\\HyeonMo\\Scripts\\PlayerInfermation.cs",
-              "RelativeDocumentMoniker": "Assets\\HyeonMo\\Scripts\\PlayerInfermation.cs",
-              "ToolTip": "D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\Assets\\HyeonMo\\Scripts\\PlayerInfermation.cs",
-              "RelativeToolTip": "Assets\\HyeonMo\\Scripts\\PlayerInfermation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T11:43:20.942Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PlayerDash.cs",
-              "DocumentMoniker": "D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\Assets\\HyeonMo\\Scripts\\PlayerDash.cs",
-              "RelativeDocumentMoniker": "Assets\\HyeonMo\\Scripts\\PlayerDash.cs",
-              "ToolTip": "D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\Assets\\HyeonMo\\Scripts\\PlayerDash.cs",
-              "RelativeToolTip": "Assets\\HyeonMo\\Scripts\\PlayerDash.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T11:43:18.593Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PlayerAttack.cs",
-              "DocumentMoniker": "D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\Assets\\HyeonMo\\Scripts\\PlayerAttack.cs",
-              "RelativeDocumentMoniker": "Assets\\HyeonMo\\Scripts\\PlayerAttack.cs",
-              "ToolTip": "D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\Assets\\HyeonMo\\Scripts\\PlayerAttack.cs",
-              "RelativeToolTip": "Assets\\HyeonMo\\Scripts\\PlayerAttack.cs",
+              "DocumentIndex": 8,
+              "Title": "RewardManager.cs",
+              "DocumentMoniker": "D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\Assets\\SuWon\\Scripts\\RewardManager.cs",
+              "RelativeDocumentMoniker": "Assets\\SuWon\\Scripts\\RewardManager.cs",
+              "ToolTip": "D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\Assets\\SuWon\\Scripts\\RewardManager.cs",
+              "RelativeToolTip": "Assets\\SuWon\\Scripts\\RewardManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T11:43:14.662Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EnemyStatus.cs",
-              "DocumentMoniker": "D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\Assets\\ChiWon\\Scripts\\EnemyStatus.cs",
-              "RelativeDocumentMoniker": "Assets\\ChiWon\\Scripts\\EnemyStatus.cs",
-              "ToolTip": "D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\Assets\\ChiWon\\Scripts\\EnemyStatus.cs",
-              "RelativeToolTip": "Assets\\ChiWon\\Scripts\\EnemyStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T11:42:42.68Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EnemySpawner.cs",
-              "DocumentMoniker": "D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\Assets\\ChiWon\\Scripts\\EnemySpawner.cs",
-              "RelativeDocumentMoniker": "Assets\\ChiWon\\Scripts\\EnemySpawner.cs",
-              "ToolTip": "D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\Assets\\ChiWon\\Scripts\\EnemySpawner.cs",
-              "RelativeToolTip": "Assets\\ChiWon\\Scripts\\EnemySpawner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T11:42:09.489Z"
+              "WhenOpened": "2025-06-07T04:49:41.237Z"
             }
           ]
         }

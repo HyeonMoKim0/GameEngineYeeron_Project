@@ -11,7 +11,7 @@ public class PlayerDashDisplay: MonoBehaviour
         // 대시 횟수 텍스트 업데이트
         if (playerDashInfo != null && dashCountText != null)
         {
-            dashCountText.text = $"Dashes: {playerDashInfo.dashCurrentStack}";
+            dashCountText.text = $"Dashes: {PlayerDashInfermation.dashCurrentStack}";  //이거 static으로 만들어서 playerDashInfo.dashCurrentStack에서 바꿈
         }
     }
 }

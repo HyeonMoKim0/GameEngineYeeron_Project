@@ -359,6 +359,7 @@
 -analyzer:"D:/develope_files/Unity/Hub/Editor/2022.3.57f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/ChiWon/Scripts/EnemySpawner.cs"
 "Assets/ChiWon/Scripts/EnemyStatus.cs"
+"Assets/HyeonMo/Scripts/AfterImageLogic.cs"
 "Assets/HyeonMo/Scripts/Parent Class/PlayerDashInfermation.cs"
 "Assets/HyeonMo/Scripts/PlayerAttack.cs"
 "Assets/HyeonMo/Scripts/PlayerDash.cs"

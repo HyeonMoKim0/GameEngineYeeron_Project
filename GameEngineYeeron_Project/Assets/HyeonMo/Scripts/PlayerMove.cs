@@ -25,8 +25,9 @@ public class PlayerMove : MonoBehaviour {
     }
 
     void PlayerMoving() {
-        if (!PlayerDash.isdashing) //대시 중일 때, 조작키로 이동 불가
-            transform.position += playerMoveValue 
+        if (!PlayerDashInfermation.isdashing) //대시 중일 때, 조작키로 이동 불가
+            transform.position += playerMoveValue
                 = new Vector3(x * moveSpeed * Time.fixedDeltaTime, 0, z * moveSpeed * Time.fixedDeltaTime);
+        
     }
 }
