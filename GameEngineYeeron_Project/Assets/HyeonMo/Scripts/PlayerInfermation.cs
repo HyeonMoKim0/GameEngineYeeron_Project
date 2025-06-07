@@ -19,7 +19,7 @@ public class PlayerInfermation : MonoBehaviour {
     private void Awake() {
         player = GameObject.FindWithTag("Player");
         //rigidbody = player.GetComponent<Rigidbody>();
-        collider = player.GetComponent<Collider>();
+        collider = GetComponent<Collider>();
 
         material = GetComponent<Material>();
         //color = GetComponent<Color>();

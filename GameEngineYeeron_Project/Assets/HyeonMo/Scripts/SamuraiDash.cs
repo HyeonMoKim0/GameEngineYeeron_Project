@@ -1,22 +1,23 @@
-using System;
 using System.Collections;
-using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
-public class SamuraiDash : MonoBehaviour {
-    void Start()
-    {
-        
+public class SamuraiDash : PlayerDashInfermation {
+    public GameObject afterImage; //잔상, 프리팹 할당
+
+    Vector3 playerPosition;
+
+    public void Dash() {
+        StartCoroutine(SummenAfterImage());
+
+        transform.position += playerDashValue = new Vector3(PlayerMove.x * dashSpeed, 0, PlayerMove.z * dashSpeed); //텔레포트 대시
+        isdashing = false;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    IEnumerator SummenAfterImage() {
+        playerPosition = transform.position; //대시 전 위치 초기화
+        yield return new WaitForSeconds(0.03125f); //약간의 소환 시간 간격 부여
 
-    void Dash(ref float x) {
-        //아래는 텔포하는 대시 기능
-        //player.transform.position += playerDashValue = new Vector3(x * dashSpeed, 0, z * dashSpeed);
+        Instantiate(afterImage, playerPosition, Quaternion.identity);
     }
 }

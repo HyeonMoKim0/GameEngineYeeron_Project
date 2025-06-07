@@ -3,78 +3,22 @@ using System.Runtime.InteropServices.WindowsRuntime;
 using UnityEngine;
 
 public class PlayerDash : PlayerDashInfermation {
-    bool isInputDash;
-    public static bool isdashing = false;
+    [SerializeField] GameObject attackObject; // 프리팹으로 반드시 할당할 것
 
-    Vector3 playerDashValue;
 
-    public Rigidbody rigidbody; //확인용, 추후 private 변경 예정
-    public Collider collider; //확인용, 추후 private 변경 예정
+    public void Dash() {
+        attackObject.SetActive(true); //공격 수단 활성화
+        playerDashValue = new Vector3(PlayerMove.x * dashSpeed, 0, PlayerMove.z * dashSpeed);
+        rigidbody.AddForce(playerDashValue, ForceMode.Impulse);
 
-    void Awake() {
-        rigidbody = GetComponent<Rigidbody>();
-        collider = GetComponent<Collider>();
+        StartCoroutine(StopDash());
     }
 
-    void Update() {
-        if (dashCurrentStack < dashMaxStack) {     //충전된 대시가 2 이상이면 대시 쿨타임 카운팅 시작
-            redashCurrentTime += Time.deltaTime;
-            dashCurrentDelay += Time.deltaTime;
-
-            if (redashCurrentTime >= redashConstraintTime && dashCurrentStack < dashMaxStack) {
-                ++dashCurrentStack;
-                redashCurrentTime = 0f;
-            }
-        }
-    }
-
-    void FixedUpdate() {
-        isInputDash = Input.GetButton("Fire3"); //GetButton이 제일 인식이 잘되어 선택
-
-        if (isInputDash && PlayerMove.IsMoving()) {
-            Dash(ref PlayerMove.x, ref PlayerMove.z);
-        }
-    }
-
-    void Dash(ref float x, ref float z) {
-        if (IsNotDelay() && IsExistDashStack()) {
-            --dashCurrentStack;
-            dashCurrentDelay = 0f;
-            Debug.Log(redashCurrentTime);
-
-            StartCoroutine(StopDash());
-            if (collider.enabled == true && PlayerInfermation.isHit)   //무적 상태가 아닐 경우 실행
-                StartCoroutine(ShotInvicible());
-            playerDashValue = new Vector3(x * dashSpeed, 0, z * dashSpeed);
-            rigidbody.AddForce(playerDashValue, ForceMode.Impulse);
-            isdashing = true;
-            
-        }
-    }
-
-    IEnumerator StopDash(){
+    IEnumerator StopDash() {
         yield return new WaitForSeconds(0.2f);  //대시는 0.2초 동안 빠르게 이동하게 됨
 
+        attackObject.SetActive(false); //공격 수단 비활성화
         rigidbody.velocity = Vector3.zero;
         isdashing = false;
-    }
-
-    IEnumerator ShotInvicible() {
-        collider.enabled = false;   //무적
-        PlayerInfermation.isHit = false;
-        yield return new WaitForSeconds(0.2f);
-
-        collider.enabled = true;    //무적 해제
-        PlayerInfermation.isHit = true;
-    }
-
-    bool IsNotDelay() {
-        if (dashCurrentDelay >= dashAfterDelay) { return true; }
-        else { return false; }
-    }
-
-    bool IsExistDashStack() {
-        if (dashCurrentStack > dashMinStack) { return true; }
-        else { return false; }
     }
 }
