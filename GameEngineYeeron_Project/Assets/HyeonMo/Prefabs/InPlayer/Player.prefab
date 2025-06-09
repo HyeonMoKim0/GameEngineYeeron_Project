@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 1579457703765749907}
   - component: {fileID: 3196235021799962076}
   - component: {fileID: 3083739792798788194}
-  - component: {fileID: 2871567329634498615}
+  - component: {fileID: 4247612496723714959}
+  - component: {fileID: 450143119747072551}
   m_Layer: 0
   m_Name: TwoSword
   m_TagString: Untagged
@@ -106,7 +107,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &2871567329634498615
+--- !u!114 &4247612496723714959
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -115,9 +116,36 @@ MonoBehaviour:
   m_GameObject: {fileID: 1513486621555795003}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2fa3c3f7a196a44296d7c2075d89d66, type: 3}
+  m_Script: {fileID: 11500000, guid: b3a82ce07184b364eae5dab3675c030f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &450143119747072551
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1513486621555795003}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 116
+  m_CollisionDetection: 0
 --- !u!1 &1728547945222704577
 GameObject:
   m_ObjectHideFlags: 0
@@ -164,7 +192,8 @@ GameObject:
   - component: {fileID: 3226796155321195386}
   - component: {fileID: 1334960062442206498}
   - component: {fileID: 321825060262301200}
-  - component: {fileID: 5420617584841003225}
+  - component: {fileID: 3236507735521685119}
+  - component: {fileID: 3844453201559718324}
   m_Layer: 0
   m_Name: ThreeSword
   m_TagString: Untagged
@@ -258,7 +287,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &5420617584841003225
+--- !u!114 &3236507735521685119
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -267,9 +296,36 @@ MonoBehaviour:
   m_GameObject: {fileID: 5795968332976786216}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2fa3c3f7a196a44296d7c2075d89d66, type: 3}
+  m_Script: {fileID: 11500000, guid: b3a82ce07184b364eae5dab3675c030f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &3844453201559718324
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5795968332976786216}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 116
+  m_CollisionDetection: 0
 --- !u!1 &7332649411509676152
 GameObject:
   m_ObjectHideFlags: 0
@@ -529,7 +585,8 @@ GameObject:
   - component: {fileID: 420227647177157679}
   - component: {fileID: 3755915954065446249}
   - component: {fileID: 4191495331894335029}
-  - component: {fileID: 3935691486229612906}
+  - component: {fileID: 1442361683388296524}
+  - component: {fileID: 7954126523534822381}
   m_Layer: 0
   m_Name: OneSword
   m_TagString: Untagged
@@ -623,7 +680,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &3935691486229612906
+--- !u!114 &1442361683388296524
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -632,9 +689,36 @@ MonoBehaviour:
   m_GameObject: {fileID: 8922282861746396995}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2fa3c3f7a196a44296d7c2075d89d66, type: 3}
+  m_Script: {fileID: 11500000, guid: b3a82ce07184b364eae5dab3675c030f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &7954126523534822381
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8922282861746396995}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 116
+  m_CollisionDetection: 0
 --- !u!1001 &329950118237355027
 PrefabInstance:
   m_ObjectHideFlags: 0

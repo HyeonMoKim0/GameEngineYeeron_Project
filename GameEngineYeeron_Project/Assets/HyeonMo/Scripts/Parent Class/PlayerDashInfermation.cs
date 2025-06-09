@@ -15,7 +15,7 @@ public class PlayerDashInfermation : MonoBehaviour {
     public static int dashMaxStack = 2;
 
 
-    public float dashSpeed = 32.0f;
+    public float dashSpeed = 32.0f; //기본 32.0f
 
 
     public static float dashCurrentDelay = 1.0f;
@@ -32,7 +32,7 @@ public class PlayerDashInfermation : MonoBehaviour {
 
     /*--------------------------------------------------------*/
     public DashLevel currentDashLevel;
-
+    
     public static bool isdashing = false;
 
     protected Vector3 playerDashValue;
@@ -46,13 +46,13 @@ public class PlayerDashInfermation : MonoBehaviour {
         playerDash = GetComponentInChildren<PlayerDash>();
         samuraiDash = GetComponentInChildren<SamuraiDash>();
         hunterDash = GetComponentInChildren<HunterDash>();
-
+        
         if (playerDash != null) { Debug.Log("찾았다!" + playerDash.gameObject.name); }
         if (samuraiDash != null) { Debug.Log("찾았다!" + samuraiDash.gameObject.name); }
         if (hunterDash != null) { Debug.Log("찾았다!" + hunterDash.gameObject.name); }
 
-        //currentDashLevel = DashLevel.Default;
-        currentDashLevel = DashLevel.Samurai;
+        currentDashLevel = DashLevel.Default;
+        //currentDashLevel = DashLevel.Samurai;
 
         SetDash();
 
