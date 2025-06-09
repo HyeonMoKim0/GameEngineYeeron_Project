@@ -1,7 +1,7 @@
 using UnityEngine;
 using TMPro;  // TextMeshPro 네임스페이스
 
-public class PlayerDashDisplay: MonoBehaviour
+public class PlayerDashDisplay : MonoBehaviour
 {
     public PlayerDashInfermation playerDashInfo;  // PlayerDashInfermation 스크립트 연결
     public TextMeshProUGUI dashCountText;         // TMP UI 텍스트 연결

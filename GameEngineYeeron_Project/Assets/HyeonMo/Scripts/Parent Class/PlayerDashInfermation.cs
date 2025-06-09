@@ -39,17 +39,17 @@ public class PlayerDashInfermation : MonoBehaviour {
 
     PlayerDash playerDash;
     SamuraiDash samuraiDash;
-    //HunterDash hunterDash;
+    HunterDash hunterDash;
 
     /*--------------------------------------------------------*/
     private void Start() {
         playerDash = GetComponentInChildren<PlayerDash>();
         samuraiDash = GetComponentInChildren<SamuraiDash>();
-        //hunterDash = GetComponentInChildren<HunterDash>();
+        hunterDash = GetComponentInChildren<HunterDash>();
 
         if (playerDash != null) { Debug.Log("찾았다!" + playerDash.gameObject.name); }
         if (samuraiDash != null) { Debug.Log("찾았다!" + samuraiDash.gameObject.name); }
-        //if (hunterDash != null) { Debug.Log("찾았다!" + hunterDash.gameObject.name); }
+        if (hunterDash != null) { Debug.Log("찾았다!" + hunterDash.gameObject.name); }
 
         //currentDashLevel = DashLevel.Default;
         currentDashLevel = DashLevel.Samurai;
@@ -120,7 +120,7 @@ public class PlayerDashInfermation : MonoBehaviour {
     void SetDash() {
         playerDash.enabled = false;
         samuraiDash.enabled = false;
-        //hunterDash.enabled = false;
+        hunterDash.enabled = false;
 
         switch (currentDashLevel) {
             case DashLevel.Samurai:
@@ -128,7 +128,7 @@ public class PlayerDashInfermation : MonoBehaviour {
                 samuraiDash.enabled = true;
                 break;
             case DashLevel.Hunter:
-                //hunterDash.enabled = true;
+                hunterDash.enabled = true;
                 break;
             default:
                 playerDash.enabled = true;
