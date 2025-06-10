@@ -36,8 +36,6 @@ public class AfterImageLogic : MonoBehaviour {
         }
         else {
             Debug.Log("다른 오브젝트와의 충돌 인식에 문제가 생겼습니다.");
-            StopCoroutine(TracePlayer());
-            Destroy(gameObject);
         }
     }
 

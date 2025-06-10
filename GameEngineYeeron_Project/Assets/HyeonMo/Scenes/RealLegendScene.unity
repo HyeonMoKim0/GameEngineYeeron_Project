@@ -413,6 +413,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 527729637398906216, guid: a151b378e76ac8744a0cf9ac9d2baf32, type: 3}
+      propertyPath: canRotateSword
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 527729637398906216, guid: a151b378e76ac8744a0cf9ac9d2baf32, type: 3}
+      propertyPath: canInstallFlooring
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 527729637398906216, guid: a151b378e76ac8744a0cf9ac9d2baf32, type: 3}
+      propertyPath: canEnhanceAfterImage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6739946188987790081, guid: a151b378e76ac8744a0cf9ac9d2baf32, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6789326958481013758, guid: a151b378e76ac8744a0cf9ac9d2baf32, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

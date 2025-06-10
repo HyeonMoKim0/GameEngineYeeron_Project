@@ -25,10 +25,9 @@ public class PlayerInfermation : MonoBehaviour {
         //color = GetComponent<Color>();
     }
 
-    void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.tag == "Enemy" && isHit)   //에너미랑 충돌하면 health 감소
-        {
+    void OnTriggerEnter(Collider other) { //자식이랑 부모가 각각 rigidbody가 있어야 따로 충돌을 인식함. 비효율적이나, 설계를 처음부터 잘 했어야 했음
+        if (other.gameObject.tag == "Enemy" && isHit) //에너미랑 충돌하면 health 감소
+        {   
             --health;
             if (health <= 0)
                 Die();
@@ -43,8 +42,8 @@ public class PlayerInfermation : MonoBehaviour {
     {
         collider.enabled = false;
         isHit = false;
-        Sprite();
-        Debug.Log("SPrite도 됨");
+        //Sprite();
+        //Debug.Log("SPrite도 됨");
         yield return new WaitForSeconds(invicibleTime);
 
         collider.enabled = true;

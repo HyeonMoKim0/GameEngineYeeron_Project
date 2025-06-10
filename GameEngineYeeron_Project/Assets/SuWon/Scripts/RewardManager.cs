@@ -18,7 +18,7 @@ public class RewardManager : MonoBehaviour
 	public TMP_Text reward3Text;
 
 	[Header("Reward System Reference")]
-	public NormalReward normalReward; // NormalReward 스크립트 참조
+	public NormalReward normalReward; // NormalReward 스크립트 참조S
 
 	// 보상 타입 열거형
 	public enum RewardType

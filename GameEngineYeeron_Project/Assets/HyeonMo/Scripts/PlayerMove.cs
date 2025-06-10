@@ -8,6 +8,7 @@ public class PlayerMove : MonoBehaviour {
     public static float x = 0f, z = 0f;
 
     Vector3 playerMoveValue;
+    Vector3 playerDirection;
 
     void FixedUpdate() {
         x = Input.GetAxisRaw("Horizontal");
@@ -25,9 +26,11 @@ public class PlayerMove : MonoBehaviour {
     }
 
     void PlayerMoving() {
-        if (!PlayerDashInfermation.isdashing) //대시 중일 때, 조작키로 이동 불가
-            transform.position += playerMoveValue
-                = new Vector3(x * moveSpeed * Time.fixedDeltaTime, 0, z * moveSpeed * Time.fixedDeltaTime);
-        
+        if (!PlayerDashInfermation.isdashing) { /*대시 중일 때, 조작키로 이동 불가*/
+            playerDirection = new Vector3(x, 0, z).normalized;
+            //transform.position += playerMoveValue
+            //    = new Vector3(x * moveSpeed * Time.fixedDeltaTime, 0, z * moveSpeed * Time.fixedDeltaTime);
+            transform.position += playerMoveValue = playerDirection * moveSpeed * Time.fixedDeltaTime;
+        }
     }
 }
