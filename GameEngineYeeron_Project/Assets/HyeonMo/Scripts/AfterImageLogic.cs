@@ -13,8 +13,8 @@ public class AfterImageLogic : MonoBehaviour {
     EnemyStatus enemyStatus;
 
     Vector3 playerCurrentPosition;
-    Vector3 myCurrentPosition;
-    Vector3 direction;
+    Vector3 myCurrenition;
+    Vector3 diron;
 
 
     void Start(){
