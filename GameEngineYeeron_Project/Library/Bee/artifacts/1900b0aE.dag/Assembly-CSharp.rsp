@@ -364,7 +364,6 @@
 "Assets/ChiWon/Scripts/HunterReward.cs"
 "Assets/ChiWon/Scripts/HunterSkill.cs"
 "Assets/ChiWon/Scripts/NormalReward.cs"
-"Assets/HyeonMo/Scripts/AfterImageLogic.cs"
 "Assets/HyeonMo/Scripts/Attack/Flooring.cs"
 "Assets/HyeonMo/Scripts/Attack/PlayerSubAttack.cs"
 "Assets/HyeonMo/Scripts/Parent Class/PlayerDashInfermation.cs"

@@ -3,11 +3,23 @@
   "WorkspaceRootPath": "D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CADECCF6-D2FE-6766-68F0-8F637F5872C5}|Assembly-CSharp.csproj|d:\\develope_files\\github\\gameengineyeeron_project\\gameengineyeeron_project\\assets\\chiwon\\scripts\\samuraireward.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CADECCF6-D2FE-6766-68F0-8F637F5872C5}|Assembly-CSharp.csproj|solutionrelative:assets\\chiwon\\scripts\\samuraireward.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CADECCF6-D2FE-6766-68F0-8F637F5872C5}|Assembly-CSharp.csproj|d:\\develope_files\\github\\gameengineyeeron_project\\gameengineyeeron_project\\assets\\hyeonmo\\scripts\\samuraiscrips\\samuraireward.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADECCF6-D2FE-6766-68F0-8F637F5872C5}|Assembly-CSharp.csproj|solutionrelative:assets\\hyeonmo\\scripts\\samuraiscrips\\samuraireward.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CADECCF6-D2FE-6766-68F0-8F637F5872C5}|Assembly-CSharp.csproj|d:\\develope_files\\github\\gameengineyeeron_project\\gameengineyeeron_project\\assets\\suwon\\scripts\\rewardmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CADECCF6-D2FE-6766-68F0-8F637F5872C5}|Assembly-CSharp.csproj|d:\\develope_files\\github\\gameengineyeeron_project\\gameengineyeeron_project\\assets\\hyeonmo\\scripts\\samuraidash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADECCF6-D2FE-6766-68F0-8F637F5872C5}|Assembly-CSharp.csproj|solutionrelative:assets\\hyeonmo\\scripts\\samuraidash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADECCF6-D2FE-6766-68F0-8F637F5872C5}|Assembly-CSharp.csproj|d:\\develope_files\\github\\gameengineyeeron_project\\gameengineyeeron_project\\assets\\hyeonmo\\scripts\\afterimagelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADECCF6-D2FE-6766-68F0-8F637F5872C5}|Assembly-CSharp.csproj|solutionrelative:assets\\hyeonmo\\scripts\\afterimagelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\Assets\\ChiWon\\Scripts\\SamuraiReward.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\ChiWon\\Scripts\\SamuraiReward.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADECCF6-D2FE-6766-68F0-8F637F5872C5}|Assembly-CSharp.csproj|D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\assets\\suwon\\scripts\\rewardmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CADECCF6-D2FE-6766-68F0-8F637F5872C5}|Assembly-CSharp.csproj|solutionrelative:assets\\suwon\\scripts\\rewardmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -39,18 +51,55 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "SamuraiReward.cs",
-              "DocumentMoniker": "D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\Assets\\ChiWon\\Scripts\\SamuraiReward.cs",
-              "RelativeDocumentMoniker": "Assets\\ChiWon\\Scripts\\SamuraiReward.cs",
-              "ToolTip": "D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\Assets\\ChiWon\\Scripts\\SamuraiReward.cs",
-              "RelativeToolTip": "Assets\\ChiWon\\Scripts\\SamuraiReward.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\Assets\\HyeonMo\\Scripts\\SamuraiScrips\\SamuraiReward.cs",
+              "RelativeDocumentMoniker": "Assets\\HyeonMo\\Scripts\\SamuraiScrips\\SamuraiReward.cs",
+              "ToolTip": "D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\Assets\\HyeonMo\\Scripts\\SamuraiScrips\\SamuraiReward.cs",
+              "RelativeToolTip": "Assets\\HyeonMo\\Scripts\\SamuraiScrips\\SamuraiReward.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAC0AAABfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T14:59:58.86Z",
+              "WhenOpened": "2025-06-10T15:49:49.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AfterImageLogic.cs",
+              "DocumentMoniker": "D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\Assets\\HyeonMo\\Scripts\\AfterImageLogic.cs",
+              "RelativeDocumentMoniker": "Assets\\HyeonMo\\Scripts\\AfterImageLogic.cs",
+              "ToolTip": "D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\Assets\\HyeonMo\\Scripts\\AfterImageLogic.cs",
+              "RelativeToolTip": "Assets\\HyeonMo\\Scripts\\AfterImageLogic.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T15:47:45.551Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "SamuraiDash.cs",
+              "DocumentMoniker": "D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\Assets\\HyeonMo\\Scripts\\SamuraiDash.cs",
+              "RelativeDocumentMoniker": "Assets\\HyeonMo\\Scripts\\SamuraiDash.cs",
+              "ToolTip": "D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\Assets\\HyeonMo\\Scripts\\SamuraiDash.cs",
+              "RelativeToolTip": "Assets\\HyeonMo\\Scripts\\SamuraiDash.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T15:47:30.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SamuraiReward.cs",
+              "DocumentMoniker": "D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\Assets\\ChiWon\\Scripts\\SamuraiReward.cs",
+              "RelativeDocumentMoniker": "Assets\\ChiWon\\Scripts\\SamuraiReward.cs",
+              "ToolTip": "D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\Assets\\ChiWon\\Scripts\\SamuraiReward.cs",
+              "RelativeToolTip": "Assets\\ChiWon\\Scripts\\SamuraiReward.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T14:59:58.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "RewardManager.cs",
               "DocumentMoniker": "D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\Assets\\SuWon\\Scripts\\RewardManager.cs",
               "RelativeDocumentMoniker": "Assets\\SuWon\\Scripts\\RewardManager.cs",
@@ -58,12 +107,11 @@
               "RelativeToolTip": "Assets\\SuWon\\Scripts\\RewardManager.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAgwBMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T04:43:25.499Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-10T04:43:25.499Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "NormalReward.cs",
               "DocumentMoniker": "C:\\Users\\KOREA\\Documents\\GitHubt\\GameEngineYeeron_Project\\Assets\\SuWon\\Scripts\\NormalReward.cs",
               "ToolTip": "C:\\Users\\KOREA\\Documents\\GitHubt\\GameEngineYeeron_Project\\Assets\\SuWon\\Scripts\\NormalReward.cs",
@@ -73,7 +121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "DashColldownUI.cs",
               "DocumentMoniker": "D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\Assets\\SuWon\\Scripts\\DashColldownUI.cs",
               "RelativeDocumentMoniker": "Assets\\SuWon\\Scripts\\DashColldownUI.cs",
@@ -85,7 +133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "PlayerDashInfermation.cs",
               "DocumentMoniker": "D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\Assets\\HyeonMo\\Scripts\\Parent Class\\PlayerDashInfermation.cs",
               "RelativeDocumentMoniker": "Assets\\HyeonMo\\Scripts\\Parent Class\\PlayerDashInfermation.cs",
@@ -97,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "PlayerDashDisplay.cs",
               "DocumentMoniker": "D:\\develope_files\\GitHub\\GameEngineYeeron_Project\\GameEngineYeeron_Project\\Assets\\SuWon\\Scripts\\PlayerDashDisplay.cs",
               "RelativeDocumentMoniker": "Assets\\SuWon\\Scripts\\PlayerDashDisplay.cs",
