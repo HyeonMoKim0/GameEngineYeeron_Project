@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 enum rotationYAngle {
@@ -11,30 +8,18 @@ enum rotationYAngle {
 }
 
 public class EnhanceAfterImageMove : MonoBehaviour {
-    int index = 0; //반복문 사용용
-
-    float rotationY = 0;
-    //float[] rotationYAngle = new float[4] { 45f, 135f, 225f, 315f };
-    float speed = 4f;
-
+    [SerializeField] float speed = 2f;
 
     Rigidbody rigidbody;
 
     Vector3[] enhanceAfterImageDirection = new Vector3[4]
-        { new Vector3(1, 0, 1), new Vector3(1, 0, -1),
-          new Vector3(-1, 0, -1), new Vector3(-1, 0, 1) };
+        { new Vector3(1, 0, 1), new Vector3(1, 0, -1),      // 각각 바라보는 방향이 45도일 때, 135도일 때,
+          new Vector3(-1, 0, -1), new Vector3(-1, 0, 1) };  // 225도일 때, 315도일 때 적용
 
     [SerializeField] rotationYAngle rotationYAngle = rotationYAngle.is45; //인스펙터창에서 직접 "반드시" 조정이 필요
 
     void Start() {
         rigidbody = GetComponent<Rigidbody>();
-
-        //for (index = 0; index < 4; ++index) {
-        //    enhanceAfterImageDirection[index] = enhanceAfterImageDirection[index].normalized; //각각 방향 정규화
-        //}
-
-        rotationY = (float)this.transform.rotation.y;
-        Debug.Log(rotationY);
 
         switch (rotationYAngle) {
             case (rotationYAngle.is45):
@@ -58,7 +43,5 @@ public class EnhanceAfterImageMove : MonoBehaviour {
                 Debug.Log("is315 됨");
                 break;
         }
-
-        //Destroy(transform.parent.gameObject, 5f);
     }
 }

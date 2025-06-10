@@ -5,6 +5,9 @@ MonoImporter:
   serializedVersion: 2
   defaultReferences:
   - afterImage: {fileID: 1584302404367365214, guid: 87e11389ccab3744182de6ad596377d5, type: 3}
+  - enhanceAfterImage: {fileID: 8633518361562974185, guid: 272f47a4b77049246b12c8bcb89ac294, type: 3}
+  - sword: {instanceID: 0}
+  - flooring: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

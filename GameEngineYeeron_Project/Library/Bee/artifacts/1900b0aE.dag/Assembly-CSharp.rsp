@@ -370,7 +370,7 @@
 "Assets/HyeonMo/Scripts/PlayerDash.cs"
 "Assets/HyeonMo/Scripts/PlayerInfermation.cs"
 "Assets/HyeonMo/Scripts/PlayerMove.cs"
-"Assets/HyeonMo/Scripts/SamuraiScrips/EnhanceAfterImageManager.cs"
+"Assets/HyeonMo/Scripts/SamuraiScrips/EnhanceAfterImageDestroyer.cs"
 "Assets/HyeonMo/Scripts/SamuraiScrips/EnhanceAfterImageMove.cs"
 "Assets/HyeonMo/Scripts/SamuraiScrips/SamuraiDash.cs"
 "Assets/HyeonMo/Scripts/SamuraiScrips/SamuraiReward.cs"
