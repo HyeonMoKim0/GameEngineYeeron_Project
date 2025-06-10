@@ -10,7 +10,7 @@ public class BulletInformation : MonoBehaviour
     private Transform playerTransform;
 
     [Header("탄환 능력치")]
-    public int bulletAdk = 1; // ★탄환의 최종 공격력! (예: 50%라면 50을 직접 입력)
+    public int bulletAdk = 10; // ★탄환의 최종 공격력! (예: 50%라면 50을 직접 입력)
     public float bulletSpeed = 60f; // ★탄환 속도 (인스펙터에서 조절)
     public bool penetration = false; // ★탄환 관통 여부 (기본값 false, 보상으로 true 변경 가능)
 

@@ -288,14 +288,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe7af4901a82eca439a64b87726d828e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dashCurrentStack: 2
   dashMinStack: 0
   dashSpeed: 32
-  dashCurrentDelay: 1
   dashAfterDelay: 1
-  redashCurrentTime: 0
-  rigidbody: {fileID: 0}
-  collider: {fileID: 0}
+  currentDashLevel: 3
+  attackObject: {fileID: 0}
 --- !u!114 &58544295
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -320,18 +317,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37ed038ec4ce4be44ad86e873e9e3c15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dashCurrentStack: 2
   dashMinStack: 0
   dashSpeed: 32
-  dashCurrentDelay: 1
   dashAfterDelay: 1
-  redashCurrentTime: 0
+  currentDashLevel: 3
   rigidbody: {fileID: 0}
   collider: {fileID: 0}
   bulletPrefab: {fileID: 6553110181315169785, guid: b297e87e203d58f4eb08dbf1dee05032, type: 3}
   bulletSpeed: 10
   bulletLifeTime: 2
   getPenetration: 0
+  currentNumberOfDashBullets: 8
+  dashBulletUpgradeAmount: 1
+  maxDashBulletUpgrades: 5
 --- !u!114 &58544297
 MonoBehaviour:
   m_ObjectHideFlags: 0
