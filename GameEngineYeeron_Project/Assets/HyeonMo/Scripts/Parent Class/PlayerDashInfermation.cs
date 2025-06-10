@@ -119,7 +119,7 @@ public class PlayerDashInfermation : MonoBehaviour {
 
     void SetDash() {
         playerDash.enabled = false;
-        samuraiDash.enabled = false;
+        samuraiDash.enabled = false; 
         //hunterDash.enabled = false;
 
         switch (currentDashLevel) {
